@@ -1,0 +1,20 @@
+{
+  "name": "minecraft-afk-bot-pro",
+  "version": "2.0.0",
+  "description": "Professional Minecraft AFK Bot — Anti-Kick Engine + Web Dashboard",
+  "main": "index.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "author": "KAYRAA",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "fs": "0.0.1-security",
+    "mineflayer": "^4.37.1"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "bot": {
+    "ip": "crynoobs.aternos.me",
+    "port": 25789,
+    "name": "AFKBOTKAYRAA",
+    "version": false,
+    "auth": "offline"
+  },
+  "reconnect": {
+    "enabled": true,
+    "delay": 5000,
+    "maxAttempts": 0
+  },
+  "antiAfk": {
+    "enabled": true,
+    "interval": 30000,
+    "actions": ["walk", "jump", "rotate", "sneak", "sprint"]
+  },
+  "dashboard": {
+    "enabled": true,
+    "port": 3000
+  },
+  "chat": {
+    "respondToCommands": true,
+    "prefix": "!"
+  }
+}
